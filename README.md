@@ -13,7 +13,9 @@ A simple PHP link shortener for IC Big Band.
 # Usage
 `index.php` is the link shortener itself. 
 
-Add a new entry to the database of shortened links by navigating to `/admin/`
+Add a new entry to the database of shortened links by navigating to `/admin/`.
+
+Note, a row with the slug of `default` is required as a url to return when a slug doesn't match
 
 # Credit
 - [Scotchbox](https://box.scotch.io/) - The base of the vagrant environment
