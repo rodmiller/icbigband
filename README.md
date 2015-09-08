@@ -3,7 +3,7 @@ A simple PHP link shortener for IC Big Band.
 
 # Vagrant
 - [Download Vagrant](https://www.vagrantup.com/)
-- Install
+- [Install](https://docs.vagrantup.com/v2/installation/index.html)
 - Clone repository
 - `cd` into directory
 - Run `vagrant up` in the directory
