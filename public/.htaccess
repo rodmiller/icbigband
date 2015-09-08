@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^add.php$ add.php
+RewriteRule ^list.php$ list.php
+RewriteRule ^([^/d]+)/?$ index.php?slug=$1 [QSA]
